@@ -143,7 +143,7 @@ void levelTraverse(QueueNode* Q, TreeNode* T) {
  * @param argv the command args
  * @return int
  */
-int main (int argc, char* argv[]) {
+int last_main (int argc, char* argv[]) {
     TreeNode* T;
     int index = 0;
     QueueNode* Q = initQueue();
@@ -153,4 +153,16 @@ int main (int argc, char* argv[]) {
     levelTraverse(Q, T);
     printf("\n");
     return 0;
+}
+
+int main(){
+    int n;
+    scanf("%d",&n);
+    char s[n];
+    for(int i=0;i<n;i++){
+        scanf()
+    }
+    TreeNode* T;
+    int index = 0;
+    createTree(&T, s, &index);
 }
